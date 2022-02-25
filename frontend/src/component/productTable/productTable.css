@@ -1,0 +1,65 @@
+.mainContainer {
+    height: 95vh;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+}
+.mainContainer .mainColumn .tableContent {
+    max-height: 600px;
+    overflow: scroll;
+}
+
+/* width */
+.mainContainer .mainColumn .tableContent::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Handle */
+  .mainContainer .mainColumn .tableContent::-webkit-scrollbar-thumb {
+    background: #9d9d9e;
+    border-radius: 20px;
+    height: 20px;
+  }
+  
+  /* Handle on hover */
+  .mainContainer .mainColumn .tableContent::-webkit-scrollbar-thumb:hover {
+    background: #34455E;
+  }
+
+.mainContainer .mainColumn .search .fa-search {
+    font-size: 22px;
+}
+.mainContainer .mainColumn .filter .fa-filter {
+    font-size: 25px;
+}
+.mainContainer .mainColumn .border {
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 25%);
+}
+.mainContainer .mainColumn .border .applyButton{
+    display: flex;
+    justify-content: end;
+}
+.mainContainer .mainColumn .border .applyButton button{
+    box-shadow: 1px 1px 30px 9px rgb(0 0 0 / 25%);
+}
+
+.mainContainer .mainColumn .border .selectPT .MuiFormControl-root,
+.mainContainer .mainColumn .border .selectI .MuiFormControl-root{
+    min-width: 100%;
+}
+.mainContainer .mainColumn .border .factor_range{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainContainer .mainColumn .border .factor_range .MuiSlider-root{
+    width: 40%;
+}
+.mainContainer .mainColumn .border .TableDataLength  .MuiFormControl-root{
+    width: 40%;
+}
+.mainContainer .mainColumn .border .pagination{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
